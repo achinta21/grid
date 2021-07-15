@@ -1,0 +1,511 @@
+/**************
+ google font
+ ************ */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+ body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+ }
+ /******************
+    header-part
+  ****************** */
+ header{
+  background: #2D25A0;
+  width: 1440px;
+  height: 677px;
+  justify-content: center;
+  margin-bottom: 70px;
+ }
+  .manuber-item{
+   margin-left: 100px;
+   padding-top: 52px;
+
+  }
+  .nav-area{
+      display: flex;
+      width: 1006px;
+      height: 44px;
+      align-items: center;
+      justify-content: space-between;   
+  }
+ 
+  nav ul{
+      display: flex;
+     list-style: none; 
+  }
+  nav li{
+    margin-right: 36px;
+    
+  }
+  nav a{
+     font-size: 16px;
+      text-decoration: none;
+      color: #FFFFFF; 
+  }
+  .icon-title{
+    display: flex;
+    background: #E02C6D;
+    color: white;
+    width: 123px;
+    height:44px;
+    align-items: center;
+    padding:10px 24px;
+    line-height: 24px
+    
+  }
+  
+  .icon-text{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+  }
+  .fas{
+    margin-left: 20px;
+      margin-right:8px; 
+     width: 17px;
+     height: 16px;
+  }
+  
+.top-banner{
+  display: flex;
+  
+}
+  .banner-style{
+    margin-top:121px;
+    margin-right: 102px;
+    
+  }
+  .banner-style h1{
+    display: grid;
+    font-size: 64px;
+    color: #FFFFFF;
+    width: 485px;
+    height: 230px; 
+    
+  }
+  .banner-item img{
+    margin-top: 67px;
+    align-items: center;
+    width: 556.01px;
+    height: 438px;
+    animation: solid 2s linear infinite ;
+  }
+  @keyframes solid {
+    0%{
+      transform: rotate(100deg);
+      
+    }
+    100%{
+      transform: rotate(-100deg);
+    
+    }
+  }
+
+  .some-button{
+    margin-top:80px;
+    transition: transform 2s;
+   
+  }
+  .some-button:hover{
+    transform:scale(1.4);
+  }
+
+  .button-link{
+    width: 80px;
+    height: 44px;
+    background: #E02C6D;
+    text-decoration: none;
+    color: white;
+    align-items: flex-start;
+    padding: 10px 24px;
+  }
+  
+  /*************************
+        top-players
+   ********************** */
+
+   main{
+     display: grid;
+     justify-content: center;
+     align-items: center;
+   }
+   .continer{
+     width:1050px;
+     height: 474px;
+     background: #FFFFFF;
+    margin-bottom:60px;
+   }
+   
+   .players{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     grid-column-gap: 30px;
+   
+   }
+   .player{
+    width: 300px;
+    height: 474px;
+    padding:15px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+   }
+   
+   .player img{
+    width: 300px;
+    height: 256px;
+
+   }
+   .player-name{
+    font-weight: bold;
+    font-size: 28px;
+    width: 300px;
+    margin: 10px 0px;
+    align-self: stretch;
+   }
+ .player-info{
+  color: #6C6C6C;
+   width: 300px;
+   font-size: 16px;
+   margin: 10px 0px;
+ }
+
+
+/****************
+ center-playes
+
+ ********************/
+
+
+ .centers{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-column-gap: 30px;
+ }
+ .center{
+  width: 300px;
+  height: 474px;
+  padding:15px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+ }
+
+ .center img{
+  width: 300px;
+  height: 256px;
+ }
+
+
+ /***********************
+      midel player
+
+  ***************** */
+
+
+  .midels{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+   }
+   .midel{
+    width: 300px;
+    height: 474px;
+    padding:15px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+   }
+   .midel img{
+    width: 300px;
+    height: 256px;
+   }
+
+   /******************
+    sticker-player
+
+    *************** */
+
+    .stickers{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      grid-column-gap: 30px;
+     }
+     .sticker{
+      width: 300px;
+      height: 474px;
+      padding:15px;
+      background: #FFFFFF;
+      box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+     }
+     .sticker img{
+      width: 300px;
+      height: 256px;
+     }
+  
+             
+ /**************************
+     All Highlights
+
+  ************************ */
+  .highlights-items{
+    margin-bottom: 100px;
+  }
+  .highlihts{
+    margin-top:100px;
+    display: flex;
+  }
+  .highliht{
+    display: grid;
+    margin-right:66px;
+    width: 469px;
+     height: 309px; 
+  }
+  .highliht h1{
+    font-size: 48px;
+    width: 469px;
+    height: 120px;
+  }
+  .banner-title{
+    width: 404px;
+    height: 113px;
+    font-size: 16px;
+    color: #6C6C6C;
+  }
+  .btns-link{
+    display: flex;
+    padding: 10px 20px;
+    width: 173px;
+    height: 44px;
+    background: #E02C6D;
+    align-items: center;
+    
+  }
+  .btns-link a{
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  .highliht-banner img{
+    width: 567px;
+    height: 427px;
+  }
+  /**************************
+        world best player
+   *************************** */
+   .best-players{
+    margin-top: 150px;
+   }
+  .rolandos{
+    display: flex;
+    grid-column-gap:110px;
+  }
+  .rolando-banner img{
+    
+    width: 500px;
+    height: 427px;
+  }
+  .banner-histori{
+    display: grid;
+    margin-right:66px;
+    width: 469px;
+    height: 309px; 
+  }
+  /*********************
+            footer
+   ******************** */
+  
+   footer{
+     margin-top: 158px;
+     margin-bottom: 80px;
+     display: grid;
+     justify-content: center;
+   }
+   footer img{
+     display: grid;
+    width: 483.87px;
+    height: 110px;
+   }
+   .footer-item{
+     text-align: center;
+   }
+   .fab{
+     padding-right:14px;
+     color: #969BAB;
+     margin-top: 20px;
+   }
+   h4{
+     color: #000000;
+   }
+   /**********************
+         media query
+
+    **********************/
+ @media only screen and (max-width:688px) {
+   .continer{
+     width:100%;
+     height: auto;
+     margin: 0;
+     overflow:hidden;
+    
+   }
+   .players,.centers,.midels,.stickers{
+     grid-template-columns: repeat(1,1fr);
+   }
+
+   .player,.center,.midel,.sticker{
+     flex-direction: colum;
+     margin-left: 30px;
+
+   }
+   .player{
+     justify-content: center;
+     align-items: center;
+    
+   }
+   
+   /********* 
+      header
+   ***********/
+   .banner-style h1{
+     width: 100%;
+     margin-right:300px;
+    display: block;
+    font-size:35px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+   
+   
+  }
+  .top-banner {
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  .banner-item img{
+    width:75%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-right: 50px;
+  }
+  .icon-title{
+    width:70%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 100px;
+  }
+  .icon-title a{
+    text-align: center;
+    margin-right: 30px;
+  }
+  .some-button{
+    width: 100%;
+    height: 50px;
+    display: block;
+    justify-content: center;
+
+  }
+  .some-button a{
+    display:flex;
+  font-size: 12px;
+  }
+  
+  .button-link{
+    padding: 10px 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-area{
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .nav-area ul {
+    display:none ;
+    
+  }
+  
+  header{
+    overflow: hidden;
+    width: 100%;
+    height:auto;
+  }
+
+  .highlihts,.rolandos{
+    display: block;
+    text-align: center;
+  }
+  .highliht,.rolando {
+    width: 100%;
+    display: block;
+    text-align: center;
+    height: auto;
+    margin-bottom:20px;
+  }
+ .highliht h1{
+   width: 100%;
+   font-size: 30px;
+   flex-wrap: wrap;
+ }
+ .highliht-banner img{
+   width: 100%;
+   justify-content: center;
+ }
+ .btns-link{
+  display: block;
+  width:30%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+ margin-left: 100px;
+ padding-bottom: 0;
+ }
+ .btns-link a{
+  width: 100%;
+  padding-right: 0;
+ }
+ .banner-title{
+  width: 100%;
+   display: block;
+   text-align: center;
+   align-items: center;
+   font-size: 15px;
+ }
+ .rolando-banner img{
+   width: 100%;
+ }
+ .banner-histori h1{
+   font-size:20px;
+   text-align: center;
+   display: block;
+   width:80%;
+   margin-top: 50px;
+ }
+.banner-histori p{
+  display: block;
+  width: 80%;
+  text-align: center;
+}
+ footer{
+   display: block;
+   width: 100%;
+   height: auto;
+   
+ }
+ footer img{
+   width:80%;
+   display: block;
+   justify-content: center;
+   align-items: center;
+ }
+ .footer-item{
+   justify-content: center;
+   align-items: center;
+ }
+
+ } 
